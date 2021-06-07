@@ -1,9 +1,5 @@
 # Getting Started with Okie Dao Project
 
-## Design
-
-https://www.figma.com/file/1Zc3eWrJ9WURWHASQ0lVdR/OkieDao
-
 ## API
 
 1. Define COMMAND in `src\commands\index.jsx`
