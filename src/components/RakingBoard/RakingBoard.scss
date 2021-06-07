@@ -1,0 +1,49 @@
+@import '../../styles/variables';
+
+.board {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 15px;
+  max-height: 1024px;
+  background-color: #f9f9f9;
+
+  .black-color {
+    background-color: #161C27;
+  }
+
+}
+
+.name {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 600;
+
+}
+
+.score {
+  line-height: 12px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.select-btn {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  border: none !important;
+  justify-content: space-between !important;
+  color: $text-color;
+  margin-bottom: 30px;
+  height: 43px;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  svg {
+    path {
+      fill: $icon-color;
+    }
+  }
+
+}

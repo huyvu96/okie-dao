@@ -1,0 +1,73 @@
+@import '~antd/dist/antd.less';
+@import '~antd/lib/style/color/colorPalette.less';
+
+@font-family: 'Open Sans', sans-serif;
+
+// Color
+@primary-color: #e4948f;
+@success-color: #2cc9bb;
+@error-color: #ff6969;
+
+@layout-header-height: 100px;
+@layout-header-padding: 0 30px;
+@layout-footer-padding: 0px 20px;
+
+@border-radius-base: 15px;
+
+// Button
+// ---
+@btn-height-base: 42px;
+@btn-font-weight: 600;
+@btn-padding-horizontal-base: 20px;
+
+// Card
+// ---
+@card-padding-base: 30px;
+@card-radius: 15px;
+@card-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+@card-padding-base: 30px;
+
+// Checkbox
+@checkbox-size: 20px;
+
+.ant-checkbox-inner {
+  border-radius: 6px !important;
+}
+
+.ant-checkbox + span {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+// Input
+// ---
+@input-height-base: 42px;
+@input-padding-horizontal: 15px;
+
+.ant-picker-input > input {
+  border-radius: 0 !important;
+}
+
+@tabs-card-tab-active-border-bottom: 0;
+@tabs-card-tab-active-border-top: 0;
+
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before {
+  display: none;
+}
+
+.ant-tabs-ink-bar {
+  display: none !important;
+}
+
+.antd-breadcrumb {
+  font-weight: 600 !important;
+}
+
+@form-item-label-font-size: 12px;
+
+@radio-button-bg: #f3f3f3;
+@radio-button-checked-bg: #f3f3f3;
+@radio-border-width: 0;
+@radio-size: 17px;
+@radio-dot-size: 10px;

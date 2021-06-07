@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-list-item-meta {
+  align-items: center;
+  .ant-list-item-meta-avatar {
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+    .ant-list-item-meta-content {
+      .ant-list-item-meta-title {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+.ant-list-item {
+  border-bottom: none !important;
+}

@@ -1,0 +1,37 @@
+@import '../../styles/variables';
+
+
+.admin-details-post {
+  .antd-breadcrumb {
+    font-weight: 600 !important;
+  }
+}
+
+.btn {
+  color: $text-color;
+  font-size: 14px;
+  font-weight: 600;
+
+  &:hover, &:focus {
+    color: $text-color;
+  }
+}
+
+.color-black {
+  color: $text-color
+}
+
+.btn-view {
+  background: #F5FCF9 !important;
+  border: none !important;
+}
+
+.btn-like {
+  background: #FFFBF1 !important;
+  border: none !important;
+}
+
+.btn-share {
+  background: #F4F6FD !important;
+  border: none !important;
+}

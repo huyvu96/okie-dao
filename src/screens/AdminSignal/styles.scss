@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+
+.entry {
+  color: #FF6969;
+}
+.target {
+  color: #2BC9BB;
+}
+.stoploss{
+  color: #3B3F45;
+}
+.tag-category {
+  border-radius: 12px;
+  height: 28px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-draft {
+  background: #F4F6FD !important;
+  border: none !important;
+  color:$text-color;
+  &:hover, &:focus {
+    color:$text-color;
+  }
+}

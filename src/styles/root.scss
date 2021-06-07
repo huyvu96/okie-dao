@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'variables';
+@import "workaround-jit";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  outline: none !important;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.border {
+  border-width: 1px;
+  border-color: $primary-color;
+}
+
+// custom quill rich editor
+.quill {
+  .ql-toolbar.ql-snow {
+    margin-top: 5px;
+    padding: 8px;
+    border: none;
+    background: #F6F7F8;
+    border-radius: 8px;
+  }
+
+  .ql-container.ql-snow {
+    border: none;
+  }
+
+  .ql-editor {
+    padding: 20px 0;
+    min-height: 300px;
+  }
+}
+
+.ant-message-custom-content {
+  display: flex !important;
+  align-items: center !important;
+}
+
+// Button
+// ---
+
+.btn-transparent {
+  border: none !important;
+  background: #F9F9F9 !important;
+  color: $primary-color !important;
+}
+
+.btn-pink {
+  background: #F8EBE8 !important;
+}
+
+.btn-yellow {
+  background: #F8F0DE !important;
+}
+
+.btn-yellow {
+  background: #F8F0DE !important;
+}
+
+.btn-white {
+  border: none !important;
+  background: #FFFFFF !important;
+}
+.btn-light-rose {
+  background: #FFF6F4!important;
+  border:#FFF6F4 !important;
+}
+.btn-light-green {
+  background: #F5FCF9!important;
+  border:#F5FCF9 !important;
+}
+.btn-light-yellow {
+  background: #FFFBF1!important;
+  border:#FFFBF1 !important;
+
+}
+.btn-light-blue {
+  background: #F4F6FD!important;
+  border:#F4F6FD !important;
+
+}
+.btn-light-purple {
+  background: #F3F3F3!important;
+  border:#F3F3F3 !important;
+}
+
+
+.ant-btn-icon-only {
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  justify-content: center;
+  align-items: center;
+  display: flex !important;
+  width: 25px !important;
+  height: 25px !important;
+  padding: 0 0 !important;
+}
+.badge .ant-badge-count  {
+  background-color: $primary-color;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.ant-typography {
+  margin-bottom: 0 !important;
+}
+.ant-btn-focus {
+  &:active, &:hover, &:focus {
+    color:$text-color !important;
+    border:#000c17 !important;
+  }
+}

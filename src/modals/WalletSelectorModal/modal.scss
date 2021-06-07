@@ -1,0 +1,40 @@
+
+.text{
+    color: #3B3F45;
+    font-style: normal;
+    //font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    //line-height: 16px;
+}
+// WalletSelector
+.WalletSelector{
+    .ant-modal-header{
+        .ant-modal-title {
+            font-size: 20px;
+            font-style: normal;
+            //font-family: Muli SemiBold
+            //color: $primary-color;
+        }
+    }
+    .ant-modal-content {
+        border-radius: 10px;
+        // width: auto;
+        // min-width: 400px;
+    }
+    .WalletBtn {
+      //height: auto;
+      border: 0px;
+      background-color: #FAFBFC;
+      
+    }
+    // .WalletBtn:focus {
+    //   border: 2px solid #f4d069;
+    //   color: #f4d069;
+    // }
+    // .WalletBtn:hover {
+    //   border: 2px solid #f4d069 !important;
+    //   background: #f4d069 !important;
+    //   color: white;
+    // }
+  }

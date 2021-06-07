@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+.left-sider {
+  height:100vh !important;
+  flex-direction: row !important;
+  max-width:none !important;
+}
+
+.ant-menu {
+  .ant-menu-item {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    &.ant-menu-item-selected {
+      border-radius: 14px;
+      .ant-menu-item-icon {
+        > path {
+          fill: $primary-color;
+        }
+      }
+    }
+    &.ant-menu-item-active {
+      border: none !important;
+      color: $primary-color !important;
+      .ant-menu-item-icon {
+        > path {
+          fill: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.manage-text {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 25px;
+  color:#9A989D;
+  margin-bottom:20px;
+  margin-top:20px;
+  display:flex
+}
+.scroll {
+  overflow-y: scroll;
+}

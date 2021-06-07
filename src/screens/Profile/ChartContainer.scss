@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.chart-container {
+  .ant-tabs-tab-active {
+    background-color: $primary-color !important;
+  }
+
+  .ant-tabs-tab {
+    margin: 0 !important;
+  }
+}

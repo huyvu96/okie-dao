@@ -1,0 +1,7 @@
+.card-task {
+  max-height: 394px;
+  overflow: auto;
+}
+.card-task::-webkit-scrollbar-thumb {
+  height: 40px;
+}

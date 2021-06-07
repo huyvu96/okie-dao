@@ -1,0 +1,18 @@
+.ranking-item {
+  height:56px;
+  display: flex;
+
+  flex-direction: row;
+}
+.name {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.bg-gray {
+  background-color: rgba(210, 204, 200, 0.2);
+}
+.bg-black {
+  background-color: #232A37;
+}
